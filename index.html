@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Krishiyantra</title>
+        <!--css link-->
+        <link rel="stylesheet" href="style.css">
+         <!--css link-->
+
+         <!--js link-->
+         <script src="script.js"></script>
+         <!--js link-->
+
+        <!--font awsem-->
+        <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+        <!--font awsem--> 
+
+        <!--font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+<!--font link-->
+
+<!--btoostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!--btoostrap-->
+
+<!--Bootstrap icon-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<!--Bootstrap icon-->
+
+    </head>
+    <body>
+    <!--header start--> 
+    
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""></a></div>
+
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rent.html">Rent</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <!--header end--> 
+
+
+ <header>
+
+    <!--home section start-->
+    <!--slider-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/background1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/background 2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/background 3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--slider-->
+    <!--home section end-->
+    </header>
+
+
+    <!--top section card start-->
+    <section class="offers">
+        <div class="offer-content">
+            <div class="row">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Free Delivery</h3>
+                <p>Free Delivery for oders  Rs.500 or more</p>
+            </div>
+                <div class="row">
+                <i class="fa-solid fa-money-check-alt"></i>
+                <h3>Lowest Price Guarantee</h3>
+                <p>We Guarantee lowest price for all our products</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-headset"></i>
+                <h3>Support 24/7</h3>
+                <p> We are always available for your help</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Secure Shopping</h3>
+                <p>We ensure you your details are secured here  </p>
+
+            </div>
+        </div>
+    </section>
+    <!--top section card end -->
+
+
+    <!--About section start-->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./images/about us 1.png" alt="">
+        </div>
+        <div class="about-text">
+            <h3>ABOUT US</h3>
+            <p>Welcome to Krishiyantra!We're a forward-thinking startup dedicated to revolutionizing the way farmers access and use agricultural tools. Our mission is to support farmers by providing them with essential equipment through a unique rental model,ensuring they have the right tools for the job without the heavy burden of upfront costs.</p>
+
+            
+        </div>
+    </section>
+    <!--About section end-->
+
+
+    <!--Product  section start-->
+     <div class="container py-5" id="body">
+        <h1 class="text-center">Products</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/p1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">fertilizer</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <h3>Rs500</h3>
+                    <a href="shop.html"><button class="btn btn-success">Buy Now</button></a> 
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/p2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">fertilizer</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <h3>Rs500</h3>
+                    <a href="shop.html"><button class="btn btn-success">Buy Now</button></a> 
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/p3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">fertilizer</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <h3>Rs500</h3>
+                    <a href="shop.html"><button class="btn btn-success">Buy Now</button></a> 
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/p4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">fertilizer</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <h3>Rs500</h3>
+                   <a href="shop.html"><button class="btn btn-success">Buy Now</button></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    
+    <!--Product section ends-->
+
+    <!--Rent for farmers start-->
+    <div class="container py-5" id="baby">
+        <h2 class="text-center">Rent for Farmers</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="card">
+          <img src="images/r1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Harvester</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+          </div>
+          <div class="mb-5 d-flex justify-content-around">
+            <h3>Rs500 per day</h3>
+            <a href="rent.html" class="btn btn-success">Get Rent</a>
+        </div>
+    </div>
+    <div class="card">
+      <img src="images/r2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tractor-1</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        
+      </div>
+      <div class="mb-5 d-flex justify-content-around">
+        <h3>Rs500 per day</h3>
+        <a href="rent.html" class="btn btn-success">Get Rent</a>
+    </div>
+</div>
+<div class="card">
+  <img src="images/r3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Tractor-2</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+  <div class="mb-5 d-flex justify-content-around">
+    <h3>Rs500 per day</h3>
+    <a href="rent.html" class="btn btn-success">Get Rent</a>
+</div>
+</div>
+<div class="card">
+  <img src="images/r4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> MACHINE </h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+  <div class="mb-5 d-flex justify-content-around">
+    <h3>Rs500 per day</h3>
+    <a href="rent.html" class="btn btn-success">Get Rent</a>
+</div>
+</div>
+<div class="card">
+  <img src="images/r5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Machine parts</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+  <div class="mb-5 d-flex justify-content-around">
+    <h3>Rs500 per day</h3>
+    <a href="rent.html" class="btn btn-success">Get Rent</a>
+</div>
+</div>
+<div class="card">
+  <img src="images/r7.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Watermotor</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+  <div class="mb-5 d-flex justify-content-around">
+    <h3>Rs500 per day</h3>
+    <a href="rent.html" class="btn btn-success">Get Rent</a>
+</div>
+</div>
+        </div>
+    </div>
+    <!--Rent for farmers ends-->
+
+    <!--Contect Us start-->
+    <div class="container  mt-5 shadow ">
+      <div class="row ">
+          <div class="col-md-4 bg-success p-5 text-white order-sm-first order-last">
+              <h2>CONTACT US</h2>
+              <p>We're open for any suggestion or just to have a chat</p>
+              <div class="d-flex mt-2">
+                  <i class="bi bi-geo-alt"></i>
+                  <p class="mt-3 ms-3">Address : Road **********###$$$$$</p>
+              </div>
+              <div class="d-flex mt-2">
+                  <i class="bi bi-telephone-forward"></i>
+                  <p class="mt-4 ms-3">Phone : 8888888888</p>
+              </div>
+              <div class="d-flex mt-2">
+                  <i class="bi bi-envelope"></i>
+                  <p class="mt-4 ms-3">Email : contactform@gmail.com</p>
+              </div>
+              <div class="d-flex mt-2">
+                  <i class="bi bi-youtube"></i>
+                  <p class="mt-4 ms-3">Channel : www.contactform.com/</p>
+              </div>
+          </div>
+          <div class="col-md-8 p-5 ">
+              <h2>CONTACT US</h2>
+              <h5>FOR SELL RESIDUE</h5>
+              <form class="row g-3 contactForm mt-4">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Last Name</label>
+                    <input type="password" class="form-control" id="inputPassword4" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Location</label>
+                    <input type="text" class="form-control" id="inputAddress" required>
+                  </div>
+                  <div class="col-12">
+                      <label for="inputAddress" class="form-label">Email Id</label>
+                      <input type="text" class="form-control" id="inputAddress" required>
+                    </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Contact Number</label>
+                      <input type="text" class="form-control" id="inputCity" required>
+                    </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-success mt-3">submit</button>
+                  </div>
+                </form>
+          </div>
+      </div>
+  </div>
+  
+    <!--Contect Us ends-->
+
+    <!--footer section start-->
+    <footer id="foot">
+      <div class="container">
+        <div class="wrapper">
+          <div class="footer-widget">
+            <a href="index.html">
+              <img src="images/logo - Copy.png" alt="logo">
+            </a>
+            <p class="desc">
+              Renting out farming tools can offer several benefits to both farmers and the broader agricultural community. Firstly,it provides an opportunity for farmers to acces high-quality equipment without the hefty upfront costs of purchashing them outright,thus easing financial burdens.
+            </p>
+            <ul class="social-icon">
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h6>Qucik Links</h6>
+            <ul class="links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-widget">
+          <h6>Services</h6>
+            <ul class="links">
+              <li><a href="#">Rent quipment</a></li>
+              <li><a href="#">Sell resdiue</a></li>
+              <li><a href="#">lower price</a></li>
+              <li><a href="#">hand to hand delivery</a></li>
+              <li><a href="#">safe and secure payment methods</a></li>
+            </ul>
+            </div>
+            </div>
+            <div class="copyright-wrapper">
+              <p>
+                Design and Developed by
+                <a href="#" target="blank">Tech Dearmers Meri</a>
+              </p>
+            </div>
+
+      </div>
+    </footer>
+    
+
+        
+    <!--footer section ends-->
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--javascriptrelative !important;ndle -->
+                    
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>
+</html>
